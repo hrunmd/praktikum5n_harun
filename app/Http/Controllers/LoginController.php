@@ -19,6 +19,7 @@ class LoginController extends Controller
                 return redirect('/kasir');
             }
         } else {
+            dd($credential);
             //jika gagal login, kembalikan ke halaman login
             return redirect('/');
         }
