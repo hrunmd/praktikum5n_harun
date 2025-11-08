@@ -53,6 +53,11 @@
                     <i class="fas fa-fw fa-list"></i>
                     <span>Data Barang</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/admin/laporan">
+                    <i class="fas fa-fw fa-file"></i>
+                    <span>Laporan</span></a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -221,6 +226,8 @@
     <script src="/sbadmin/js/demo/chart-area-demo.js"></script>
     <script src="/sbadmin/js/demo/chart-pie-demo.js"></script>
 
+    <x-notify::notify />
+    @notifyJs
 </body>
 
 </html>
